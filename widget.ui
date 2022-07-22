@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ConvexHull</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../build-go_lab_05_otoczka_wypukla-Desktop_Qt_5_11_1_MinGW_32bit-Debug/icon.jpg</normaloff>../build-go_lab_05_otoczka_wypukla-Desktop_Qt_5_11_1_MinGW_32bit-Debug/icon.jpg</iconset>
+  </property>
+  <widget class="QLineEdit" name="lineEditNumPoint">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>50</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonDraw">
+   <property name="geometry">
+    <rect>
+     <x>682</x>
+     <y>90</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Draw points</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelNumPoints">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>30</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Number of points</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonConvex">
+   <property name="geometry">
+    <rect>
+     <x>652</x>
+     <y>130</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Draw convex hull</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
